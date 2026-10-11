@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-indigo-khadi: #243B53;
+  --color-ivory: #F7F3E8;
+  --color-terracotta: #B65D3A;
+  --color-sage: #78917B;
+  --color-charcoal: #29312D;
+  --color-khadi-muted: #68736C;
+  --color-surface: #FFFFFF;
+  --color-border-khadi: #E5E0D5;
+  --color-khadi-success: #367A57;
+  --color-khadi-warning: #B7791F;
+  --color-khadi-error: #B94040;
+}
+
+body {
+  background-color: #F7F3E8;
+  color: #29312D;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbars for clean table/list browsing */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F3E8;
+}
+::-webkit-scrollbar-thumb {
+  background: #D5CEBF;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B65D3A;
+}
+
+@media print {
+  body {
+    background: #FFFFFF !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

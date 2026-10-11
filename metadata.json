@@ -1,0 +1,6 @@
+{
+  "name": "SutraSetu — Smart Charkha Performance & Artisan Support Platform",
+  "description": "SIH26020 digital companion for recording measurements, comparing prototype performance, evaluating costs, and documenting field trials for innovative Khadi hand-spinning equipment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
